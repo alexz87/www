@@ -1,0 +1,40 @@
+// Створюємо новий файл .gitignor
+
+// Додаємо файли та папки для ігнорування
+*.sass
+/bin
+/admin
+/config
+
+
+// Переходимо у термінал, та підключаємось до git
+
+// Проводимо ініціалізацію
+git init 
+
+// Додаємо всі файли
+git add . 
+
+// Проводимо комміт
+git commit -m 'Changet all files' 
+
+// Створюємо нову гілку
+git branch testing 
+
+// Переходимо на нову гілку
+git checkout testing 
+
+
+// Створюємо папку blog та файли index.js, index.html
+
+// Додаємо всі файли
+git add . 
+
+// Проводимо комміт
+git commit -m 'Changet all files blog' 
+
+// Підключаємось до віддаленого репозиторію
+git remote add origin https://github.com/alexz87/www.git
+
+// Переносимо файли з основної гілки на віддалений репозиторій
+git push -u origin master
