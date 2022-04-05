@@ -1,6 +1,6 @@
 *.sass
-bin/
-admin/
-config/
+/bin
+/admin
+/config
 
 git.html
